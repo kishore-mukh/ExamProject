@@ -1,0 +1,75 @@
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\appsettings.json
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\evalproject.exe
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\evalproject.deps.json
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\evalproject.runtimeconfig.json
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\evalproject.runtimeconfig.dev.json
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\evalproject.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\evalproject.pdb
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.csproj.AssemblyReference.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.AssemblyInfoInputs.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.AssemblyInfo.cs
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.csproj.CoreCompileInputs.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\scopedcss\bundle\evalproject.styles.css
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\staticwebassets\evalproject.StaticWebAssets.Manifest.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.RazorTargetAssemblyInfo.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.csproj.CopyComplete
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\refint\evalproject.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.pdb
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\evalproject.genruntimeconfig.cache
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\obj\Debug\net5.0\ref\evalproject.dll
+C:\Users\loges\OneDrive\Desktop\c#\evalproject\bin\Debug\net5.0\web.config
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\web.config
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\appsettings.Development.json
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\appsettings.json
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\evalproject.exe
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\evalproject.deps.json
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\evalproject.runtimeconfig.json
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\evalproject.runtimeconfig.dev.json
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\evalproject.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\ref\evalproject.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\evalproject.pdb
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.csproj.AssemblyReference.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.GeneratedMSBuildEditorConfig.editorconfig
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.AssemblyInfoInputs.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.AssemblyInfo.cs
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.csproj.CoreCompileInputs.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.MvcApplicationPartsAssemblyInfo.cs
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.MvcApplicationPartsAssemblyInfo.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\staticwebassets\evalproject.StaticWebAssets.Manifest.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\staticwebassets\evalproject.StaticWebAssets.xml
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\scopedcss\bundle\evalproject.styles.css
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.RazorTargetAssemblyInfo.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.csproj.CopyComplete
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\ref\evalproject.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.pdb
+D:\KANINI\Kanini_Project\API projects\evalproject\obj\Debug\net5.0\evalproject.genruntimeconfig.cache
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\EPPlus.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\EPPlus.Interfaces.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\EPPlus.System.Drawing.dll
+D:\KANINI\Kanini_Project\API projects\evalproject\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll

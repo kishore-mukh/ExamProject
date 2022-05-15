@@ -90,6 +90,20 @@ namespace evalproject.Controllers
             return Ok(student);
         }
 
+        [HttpPost]
+        [Route("Project")]
+        public ActionResult<bool> Registeration(RegisterTable S)
+        {
+            if (RegisterTable.Registering(S) == true)
+            {
+                return Ok(true);
+            }
+            else
+            {
+                return Ok(false);
+            }
+        }
+
 
     }
 }

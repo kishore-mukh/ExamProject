@@ -22,7 +22,7 @@ namespace evalproject.models
             {
                 con = new SqlConnection("Data Source=.\\SQLSERVER2019G3; Initial Catalog= evaluation; Integrated Security= true");
                 con.Open();
-                cmd = new SqlCommand("insert into usersstudent values(@Email,@Name,@password,@usertype)");
+                cmd = new SqlCommand("insert into usersadmin values(@Email,@Name,@password,@usertype)");
                 cmd.Connection = con;
 
                 cmd.Parameters.AddWithValue("@Email", R.RMail);

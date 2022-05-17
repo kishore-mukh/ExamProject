@@ -62,17 +62,39 @@ namespace evalproject.models
             List<Questions> QArray = await ExelData(path);
             foreach (var i in QArray)
             {
-                cmd = new SqlCommand("insert into questionanswer @subject,@Mark,@Qstn,@Ans,@OptA,@OptB,@OptC,@OptD");
+                cmd = new SqlCommand("select * from questionanswer where questiontext=@Qstn");
                 cmd.Connection = con;
-                cmd.Parameters.AddWithValue("@Qsubject", subject);
                 cmd.Parameters.AddWithValue("@Qstn", i.Question);
-                cmd.Parameters.AddWithValue("@OptA", i.OptionA);
-                cmd.Parameters.AddWithValue("@OptB", i.OptionB);
-                cmd.Parameters.AddWithValue("@OptC", i.OptionC);
-                cmd.Parameters.AddWithValue("@OptD", i.OptionD);
-                cmd.Parameters.AddWithValue("@Ans", i.Answer);
-                cmd.Parameters.AddWithValue("@Mark", i.Marks);
-                cmd.ExecuteNonQuery();
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    dr.Close();
+                    cmd = new SqlCommand("update questionanswer set rightanswer=@Ans,option1=@OptA,option2=@OptB,option3=@OptC,option4=@OptD where questiontext=@Qstn");
+                    cmd.Connection = con;
+                    cmd.Parameters.AddWithValue("@Qstn", i.Question);
+                    cmd.Parameters.AddWithValue("@OptA", i.OptionA);
+                    cmd.Parameters.AddWithValue("@OptB", i.OptionB);
+                    cmd.Parameters.AddWithValue("@OptC", i.OptionC);
+                    cmd.Parameters.AddWithValue("@OptD", i.OptionD);
+                    cmd.Parameters.AddWithValue("@Ans", i.Answer);
+                    cmd.ExecuteNonQuery();
+                }
+                else
+                {
+                    dr.Close();
+                    cmd = new SqlCommand("insert into questionanswer values(@subject,@Mark,@Qstn,@Ans,@OptA,@OptB,@OptC,@OptD)");
+                    cmd.Connection = con;
+                    cmd.Parameters.AddWithValue("@subject", subject);
+                    cmd.Parameters.AddWithValue("@Qstn", i.Question);
+                    cmd.Parameters.AddWithValue("@OptA", i.OptionA);
+                    cmd.Parameters.AddWithValue("@OptB", i.OptionB);
+                    cmd.Parameters.AddWithValue("@OptC", i.OptionC);
+                    cmd.Parameters.AddWithValue("@OptD", i.OptionD);
+                    cmd.Parameters.AddWithValue("@Ans", i.Answer);
+                    cmd.Parameters.AddWithValue("@Mark", i.Marks);
+                    cmd.ExecuteNonQuery();
+                }
+                    
             }
 
         }

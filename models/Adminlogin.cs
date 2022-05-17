@@ -36,7 +36,8 @@ namespace evalproject.models
 
         public static bool resetpass(string mail,string pass)
         {
-            try {
+            try
+            {
                 SqlConnection con = new SqlConnection("Data Source=.\\SQLSERVER2019G3; Initial Catalog= evaluation; Integrated Security= true");
                 con.Open();
                 SqlCommand cmd = new SqlCommand("select * from UsersAdmin where useremail=@email");
@@ -45,10 +46,12 @@ namespace evalproject.models
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {
+                    dr.Close();
                     cmd = new SqlCommand("update UsersAdmin set password=@password where useremail=@email");
                     cmd.Connection = con;
                     cmd.Parameters.AddWithValue("@email", mail);
                     cmd.Parameters.AddWithValue("@password", pass);
+                    cmd.ExecuteNonQuery();
                     return true;
                 }
                 else
@@ -60,7 +63,7 @@ namespace evalproject.models
             {
                 return false;
             }
-            
+
 
         }
 
@@ -77,10 +80,12 @@ namespace evalproject.models
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {
+                    dr.Close();
                     cmd = new SqlCommand("update UsersAdmin set password=@password where useremail=@email");
                     cmd.Connection = con;
                     cmd.Parameters.AddWithValue("@email", mail);
                     cmd.Parameters.AddWithValue("@password", newpass);
+                    cmd.ExecuteNonQuery();
                     return true;
                 }
                 else

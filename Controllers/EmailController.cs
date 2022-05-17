@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Net.Mail;
 using evalproject.models;
-
+using System.IO;
 
 namespace evalproject.Controllers
 {
@@ -14,23 +14,26 @@ namespace evalproject.Controllers
     [ApiController]
     public class EmailController : ControllerBase
     {
+
         [HttpGet]
         public ActionResult<string> emailsend(string mailid)
         {
+
             Random rnd = new Random();
             int num = rnd.Next();
             string pass = "abc" + num.ToString();
-            if(Adminlogin.resetpass(mailid, pass) == true)
+            if (Adminlogin.resetpass(mailid, pass) == true)
             {
                 string To = mailid;
-                string body = $"Your new password is: {pass}\nPlease paste the link on a new tab\nhttp://localhost:4200/resetpassword";
+                string body = "<table>" + "<tr>" + "<td>" + "Your new password is: " + $"{pass}" + "</td>" + "</tr>" + "<tr>" + "<td>" + "Please click on the button to reset the password" + "</td>" + "</tr>" + "<tr>" + "<td>" + "<a href =\"http://localhost:4200/resetpassword \">" + "<button>" + "Click here to update" + "</button>" + "</a>" + "</td>" + "</tr>" + "</table>";
                 string subject = "Reset Password";
                 MailMessage mm = new MailMessage();
                 mm.From = new MailAddress("kaniniquiz@gmail.com");
                 mm.Subject = subject;
                 mm.Body = body;
+
                 mm.To.Add(To);
-                mm.IsBodyHtml = false;
+                mm.IsBodyHtml = true;
 
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
@@ -45,8 +48,8 @@ namespace evalproject.Controllers
             {
                 return Ok("The following mail id does not exists!!");
             } 
-            
         }
+        
 
         [HttpGet]
         [Route("resetpass")]
@@ -60,6 +63,7 @@ namespace evalproject.Controllers
             {
                 return Ok("The entered mail or password is incorrect");
             }
+            
         }
     }
 }

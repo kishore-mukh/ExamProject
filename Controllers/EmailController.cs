@@ -25,14 +25,18 @@ namespace evalproject.Controllers
             if (Adminlogin.resetpass(mailid, pass) == true)
             {
                 string To = mailid;
-                string body = "<table>" + "<tr>" + "<td>" + "Your new password is: " + $"{pass}" + "</td>" + "</tr>" + "<tr>" + "<td>" + "Please click on the button to reset the password" + "</td>" + "</tr>" + "<tr>" + "<td>" + "<a href =\"http://localhost:4200/resetpassword \">" + "<button>" + "Click here to update" + "</button>" + "</a>" + "</td>" + "</tr>" + "</table>";
+                string body ="<table >" + "<tr>" + "<td style='font-size: 15px; font-weight: bold;'>" + "Your new password is: " + $"{pass}" + "</td>" + "</tr>" + "<tr>" + "<td style='font-size: 15px; font-weight: bold;'>" + "Please click on the button to reset the password" + "</td>" + "</tr>" + "<tr>" + "<td>" +  "<button style='background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; margin: 4px 2px; cursor: pointer; border-radius:8px;'>"+ "<a style='color:white; text-decoration:none;' href =\"http://localhost:4200/resetpassword \">" + "Click here to update" +"</a>"+ "</button>"  + "</td>" + "</tr>" + "</table>";
                 string subject = "Reset Password";
                 MailMessage mm = new MailMessage();
                 mm.From = new MailAddress("kaniniquiz@gmail.com");
                 mm.Subject = subject;
-                mm.Body = body;
+                
 
-                mm.To.Add(To);
+
+        
+            mm.Body = body;
+
+            mm.To.Add(To);
                 mm.IsBodyHtml = true;
 
                 SmtpClient smtp = new SmtpClient();
@@ -47,7 +51,7 @@ namespace evalproject.Controllers
             else
             {
                 return Ok("The following mail id does not exists!!");
-            } 
+            }
         }
         
 

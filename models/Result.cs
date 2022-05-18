@@ -33,7 +33,7 @@ namespace evalproject.models
         {
             
             List<Result> stu = new List<Result>();
-            SqlConnection con = new SqlConnection("Data Source=.\\SQLSERVER2019G3;Initial Catalog=evalution;Integrated Security=true");
+            SqlConnection con = new SqlConnection("Data Source=.\\SQLSERVER2019G3; Initial Catalog= evaluation; Integrated Security= true");
             con.Open();
             SqlCommand cmd = new SqlCommand("select Studentid,StudentName,SubjectName,DateofExam,Questionpapercode,sum(ScoreObtained) as totalmark from StudentHistory group by Studentid,StudentName,SubjectName,DateofExam,Questionpapercode");
             cmd.Connection = con;
